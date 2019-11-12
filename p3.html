@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pesqueria &mdash; SCOTPERÚ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!--
+	Default Theme Style
+	You can change the style.css (default color purple) to one of these styles
+
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+	/* For demo purpose only */
+
+	/* For Demo Purposes Only ( You can delete this anytime :-) */
+	#colour-variations {
+		padding: 10px;
+		-webkit-transition: 0.5s;
+	  	-o-transition: 0.5s;
+	  	transition: 0.5s;
+		width: 140px;
+		position: fixed;
+		left: 0;
+		top: 100px;
+		z-index: 999999;
+		background: #fff;
+		/*border-radius: 4px;*/
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	#colour-variations.sleep {
+		margin-left: -140px;
+	}
+	#colour-variations h3 {
+		text-align: center;;
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #777;
+		margin: 0 0 10px 0;
+		padding: 0;;
+	}
+	#colour-variations ul,
+	#colour-variations ul li {
+		padding: 0;
+		margin: 0;
+	}
+	#colour-variations li {
+		list-style: none;
+		display: block;
+		margin-bottom: 5px!important;
+		float: left;
+		width: 100%;
+	}
+	#colour-variations li a {
+		width: 100%;
+		position: relative;
+		display: block;
+		overflow: hidden;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+	}
+	#colour-variations li a:hover {
+	  	opacity: .9;
+	}
+	#colour-variations li a > span {
+		width: 33.33%;
+		height: 20px;
+		float: left;
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+
+
+	.option-toggle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 5px;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		background: #f64662;
+		text-align: center;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	.option-toggle i {
+		top: 2px;
+		position: relative;
+	}
+	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+		color:  #fff;
+		text-decoration: none;
+		outline: none;
+	}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+
+	<body>
+				<header role="banner" id="fh5co-header">
+						<div class="container">
+							<!-- <div class="row"> -->
+						    <nav class="navbar navbar-default">
+							        <div class="navbar-header">
+							        	<!-- Mobile Toggle Menu Button -->
+												<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+							         	<a class="navbar-brand" href="index.html">SCOTPERÚ</a>
+
+							        </div>
+
+							        <div >
+							          <ul class="nav navbar-nav navbar-right">
+							            <li><a class="navbar-brand" href="index.html">Inicio</a></li>
+													<li class="active"><a href="#" data-nav-section="home"><span>Español</span></a></li>
+							            <li><a href="#" data-nav-section="work"><span>English</span></a></li>
+							          </ul>
+							        </div>
+						    </nav>
+						  <!-- </div> -->
+					  </div>
+				</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/bote_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate">Pesca y agricultura en el desierto: una plataforma para entender cómo responder ante El Niño en el contexto del cambio climático en Sechura, Perú.</h1>
+							<h2 class="to-animate"> (IMPACTO EL NIÑO) </a></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+	<section id="fh5co-intro">
+		<div class="container">
+
+
+		</div>
+	</section>
+
+<!-- Seccion de trabajos -->
+
+	<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Presentación</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h4 style="text-align: justify;">Los eventos cíclicos de lluvias extremas, como los generados por El Niño, pueden
+								causar devastación en países de bajo e ingreso medio, particularmente en Perú, país
+								íntimamente relacionado con los fenómenos climáticos asociados con El Niño.
+							</h4><br>
+							<h4 style="text-align: justify;">Se ha prestado muy poca atención a las oportunidades que estos eventos pueden crear
+								para los sistemas alimentarios, especialmente en el contexto del cambio climático en
+								entornos áridos. Esto es particularmente importante porque estos eventos tienen la
+								capacidad de aumentar el agua dulce disponible y producir sedimentos fértiles que
+								llenan las llanuras de ríos y lagos. Este proyecto emprenderá la primera investigación
+								sistemática e interdisciplinaria sobre los sistemas desierto-El Niño- alimento en el norte
+								de Perú.
+							</h4><br>
+							<h4 style="text-align: justify;">La identificación de nuevas oportunidades de sustento es una agenda urgente en la
+								región, ya que el cambio climático se encuentra afectando negativamente a los mariscos
+								y la pesca marina, industrias hasta hace poco lucrativas.
+							</h4><br>
+							<h4 style="text-align: justify;">Los resultados de nuestra investigación influirán en tener un panorama más amplio de
+								los desafíos a futuro y de las oportunidades asociadas con el cambio climático en las
+								instituciones académicas y políticas.
+							</h4><br>
+							<h4 style="text-align: justify;">Los resultados de este proyecto serán importantes para obtener nuevas ideas sobre cómo
+								las relaciones entre la agricultura y las oportunidades de pesca continental y marítima
+								están cambiando los sistemas alimentarios a nivel mundial en otras regiones
+								influenciadas por El Niño y entornos áridos en general.
+							</h4><br>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h3 class="to-animate">Áreas de enfoque dentro de los Principales Desafíos Mundiales y de desarrollo
+						económico o bienestar a promover, así como Objetivos de Desarrollo Social (ODS)
+						asociados:
+					</h3>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h4 style="text-align: justify;">Este proyecto es un ejemplo de manejo sostenible de los recursos, en cumplimiento de
+								los objetivos ODS: &quot;acción climática&quot; (ODS 13) a escala local, donde las poblaciones
+								vulnerables son el principal objetivo para generar soluciones; “inclusión e igualdad de
+								género” (ODS 5) promoviendo el diálogo intergeneracional dentro de los hogares y las
+								comunidades, en asociación con educadores y ONG; “garantizar una educación de
+								calidad inclusiva y equitativa y promover oportunidades de aprendizaje permanente para
+								todos” (ODS 4) trabajando con los padres de familia e informando sobre el desarrollo
+								de la currícula educativa.
+							</h4><br>
+							<h4 style="text-align: justify;">El proyecto también enfoca su atención en mejorar los beneficios económicos de la
+								pesca continental en las lagunas creadas por los eventos de El Niño, incluyendo estos
+								alineamientos con mejores mecanismos de comercialización y gobernanza integrados
+								dentro de las prioridades locales, regionales y nacionales.
+							</h4><br>
+							<h4 style="text-align: justify;">El proyecto también va directamente a un desarrollo económico más amplio y el
+								bienestar del Perú luego del 2021, al proporcionar una plataforma para la planificación
+								de escenarios a futuro que vincule a los investigadores con los actores de toda la
+								producción (agricultura y pesca), educación y, el tercer sector, trabajar con jóvenes de la
+								escuela secundaria para movilizar el conocimiento intergeneracional y comprometiendo
+								la próxima generación de investigadores y actores del gobierno local en el diálogo
+								interdisciplinario, intersectorial e internacional respecto al cambio climático y el sistema
+								alimentario desierto-El Niño.
+							</h4><br>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+<!-- Seccion de equipo -->
+
+	<section id="fh5co-about" data-section="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Equipo</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Investigadores principales</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person1.jpg" alt="Image"></figure>
+						<h3>Prof. Nina Laurie</h3>
+						<span class="fh5co-position">School of Geography and Sustainable Development</span>
+						<p>"pequeña reseña"</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<br></br>
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Coinvestigador</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person1.jpg" alt="Image"></figure>
+						<h3>Dr Richard Bates,</h3>
+						<span class="fh5co-position">University of St. Andrews</span>
+						<p>"pequeña reseña"</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person2.jpg" alt="Image"></figure>
+						<h3>Dr Dan Clayton</h3>
+						<span class="fh5co-position">University of St. Andrews</span>
+						<p></p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person2.jpg" alt="Image"></figure>
+						<h3>Dr Karen Brown</h3>
+						<span class="fh5co-position">University of St. Andrews</span>
+						<p>Asesor, con experiencia en gobernanza marina y capacidad de asesorar sobre políticas para las partes interesadas.</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person2.jpg" alt="Image"></figure>
+						<h3>Dr. Tania Mendo</h3>
+						<span class="fh5co-position">University of St. Andrews</span>
+						<p></p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br></br>
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Colaboradores relacionados</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person1.jpg" alt="Image"></figure>
+						<h3>Dr. Jaime Mendo</h3>
+						<span class="fh5co-position">Universidad Nacional Agraria La Molina (UNALM) and Fundación para el Desarrollo Agraria (FDA)</span>
+						<p>"pequeña reseña"</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/person2.jpg" alt="Image"></figure>
+						<h3>Ing° Rodolfo Rodriguez</h3>
+						<span class="fh5co-position">Universidad de Piura</span>
+						<p></p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+<!-- Seccion de pie pagina -->
+<footer id="footer" role="contentinfo">
+	<a href="#" class="gotop js-gotop">To<i class="icon-arrow-up2">Top</i></a>
+	<div class="container">
+		<div class="">
+			<div class="col-md-12 text-center">
+				<p>&copy; Elate Free HTML5. All Rights Reserved. Created by FREEHTML5.co // Jean Arzapalo </p>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<ul class="social social-circle">
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-youtube"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="js/jquery.style.switcher.js"></script>
+	<script>
+		$(function(){
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+		          	expires: 30,
+		          	isManagingLoad: true
+		      	}
+			});
+			$('.option-toggle').click(function() {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
